@@ -1,0 +1,29 @@
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form1.resources
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+c:\users\tinorberto\documents\visual studio 2015\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form1.resources
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\pb003357\Documents\Visual Studio 2013\Projects\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form1.resources
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6N.exe.config
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6N.exe
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6N.pdb
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6N.exe
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6N.pdb
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
