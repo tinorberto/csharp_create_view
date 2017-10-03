@@ -272,6 +272,7 @@ namespace WindowsFormsApplication6
 
         }
 
+        //remover as linas
         private void removeGridButton_Click(object sender, EventArgs e)
         {
             // remover as linhas
@@ -285,6 +286,7 @@ namespace WindowsFormsApplication6
 
         private void comentButton_Click(object sender, EventArgs e)
         {
+            String colluns = "";
             String coments = "";
             //Montar o comentario
             foreach (DataGridViewRow row in dataGrid.Rows)
@@ -294,6 +296,9 @@ namespace WindowsFormsApplication6
                 {
                 string viewName = row.Cells[1].Value.ToString();
                 string viewComent = row.Cells[2].Value.ToString();
+                string tableName = row.Cells[0].Value.ToString();
+                //colunas que tem o nome alterado
+                colluns += tableName + " " + viewName + " , \n";
 
                 string comentText = coment;
                 //idepbh.TABLE.ROWN_NAME is 'COMENT'
@@ -305,6 +310,7 @@ namespace WindowsFormsApplication6
                 }
              }
             resultTextBox.Text = "-- Comentarios \n"+coments + "\n";
+            resultTextBox.Text += "-- Campos \n" + colluns + "\n";
         }
 
         private void button1_Click(object sender, EventArgs e)

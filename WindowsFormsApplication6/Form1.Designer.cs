@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.createMVcheckBox = new System.Windows.Forms.CheckBox();
-            this.alterMVcheckBox = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.nametextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,30 +56,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
-            // createMVcheckBox
-            // 
-            this.createMVcheckBox.AutoSize = true;
-            this.createMVcheckBox.Location = new System.Drawing.Point(42, 43);
-            this.createMVcheckBox.Name = "createMVcheckBox";
-            this.createMVcheckBox.Size = new System.Drawing.Size(66, 17);
-            this.createMVcheckBox.TabIndex = 0;
-            this.createMVcheckBox.Text = "Criar MV";
-            this.createMVcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // alterMVcheckBox
-            // 
-            this.alterMVcheckBox.AutoSize = true;
-            this.alterMVcheckBox.Location = new System.Drawing.Point(127, 43);
-            this.alterMVcheckBox.Name = "alterMVcheckBox";
-            this.alterMVcheckBox.Size = new System.Drawing.Size(72, 17);
-            this.alterMVcheckBox.TabIndex = 1;
-            this.alterMVcheckBox.Text = "Editar MV";
-            this.alterMVcheckBox.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 67);
+            this.label1.Location = new System.Drawing.Point(39, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 13);
             this.label1.TabIndex = 2;
@@ -89,7 +67,7 @@
             // 
             // nametextBox
             // 
-            this.nametextBox.Location = new System.Drawing.Point(101, 95);
+            this.nametextBox.Location = new System.Drawing.Point(91, 35);
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Size = new System.Drawing.Size(223, 20);
             this.nametextBox.TabIndex = 3;
@@ -97,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 98);
+            this.label2.Location = new System.Drawing.Point(29, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 4;
@@ -106,7 +84,7 @@
             // Abreviatura
             // 
             this.Abreviatura.AutoSize = true;
-            this.Abreviatura.Location = new System.Drawing.Point(330, 98);
+            this.Abreviatura.Location = new System.Drawing.Point(320, 38);
             this.Abreviatura.Name = "Abreviatura";
             this.Abreviatura.Size = new System.Drawing.Size(61, 13);
             this.Abreviatura.TabIndex = 6;
@@ -114,14 +92,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(392, 95);
+            this.textBox1.Location = new System.Drawing.Point(382, 35);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 5;
             // 
             // generatebutton
             // 
-            this.generatebutton.Location = new System.Drawing.Point(392, 713);
+            this.generatebutton.Location = new System.Drawing.Point(323, 713);
             this.generatebutton.Name = "generatebutton";
             this.generatebutton.Size = new System.Drawing.Size(75, 23);
             this.generatebutton.TabIndex = 7;
@@ -131,9 +109,9 @@
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Location = new System.Drawing.Point(42, 606);
+            this.resultTextBox.Location = new System.Drawing.Point(42, 567);
             this.resultTextBox.Name = "resultTextBox";
-            this.resultTextBox.Size = new System.Drawing.Size(496, 101);
+            this.resultTextBox.Size = new System.Drawing.Size(496, 140);
             this.resultTextBox.TabIndex = 8;
             this.resultTextBox.Text = "";
             // 
@@ -148,7 +126,7 @@
             "LINE",
             "POLYGON",
             "NENHUM"});
-            this.typeGeomcomboBox.Location = new System.Drawing.Point(137, 217);
+            this.typeGeomcomboBox.Location = new System.Drawing.Point(127, 157);
             this.typeGeomcomboBox.Name = "typeGeomcomboBox";
             this.typeGeomcomboBox.Size = new System.Drawing.Size(121, 21);
             this.typeGeomcomboBox.TabIndex = 9;
@@ -156,7 +134,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 220);
+            this.label3.Location = new System.Drawing.Point(29, 160);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 10;
@@ -166,7 +144,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 136);
+            this.label4.Location = new System.Drawing.Point(29, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 13);
             this.label4.TabIndex = 11;
@@ -175,7 +153,7 @@
             // 
             // schemaTextBox
             // 
-            this.schemaTextBox.Location = new System.Drawing.Point(101, 133);
+            this.schemaTextBox.Location = new System.Drawing.Point(91, 73);
             this.schemaTextBox.Name = "schemaTextBox";
             this.schemaTextBox.Size = new System.Drawing.Size(223, 20);
             this.schemaTextBox.TabIndex = 12;
@@ -187,7 +165,7 @@
             "SEMANAL",
             "DIARIO",
             "MENSAL"});
-            this.refreshComboBox.Location = new System.Drawing.Point(137, 181);
+            this.refreshComboBox.Location = new System.Drawing.Point(127, 121);
             this.refreshComboBox.Name = "refreshComboBox";
             this.refreshComboBox.Size = new System.Drawing.Size(121, 21);
             this.refreshComboBox.TabIndex = 13;
@@ -196,7 +174,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(39, 184);
+            this.label5.Location = new System.Drawing.Point(29, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 14;
@@ -206,7 +184,7 @@
             // findColumnsBox1
             // 
             this.findColumnsBox1.AutoSize = true;
-            this.findColumnsBox1.Location = new System.Drawing.Point(42, 254);
+            this.findColumnsBox1.Location = new System.Drawing.Point(32, 194);
             this.findColumnsBox1.Name = "findColumnsBox1";
             this.findColumnsBox1.Size = new System.Drawing.Size(143, 17);
             this.findColumnsBox1.TabIndex = 15;
@@ -215,14 +193,14 @@
             // 
             // tableNameTextBox
             // 
-            this.tableNameTextBox.Location = new System.Drawing.Point(301, 277);
+            this.tableNameTextBox.Location = new System.Drawing.Point(291, 217);
             this.tableNameTextBox.Name = "tableNameTextBox";
             this.tableNameTextBox.Size = new System.Drawing.Size(130, 20);
             this.tableNameTextBox.TabIndex = 16;
             // 
             // tableOwnertextBox2
             // 
-            this.tableOwnertextBox2.Location = new System.Drawing.Point(165, 277);
+            this.tableOwnertextBox2.Location = new System.Drawing.Point(155, 217);
             this.tableOwnertextBox2.Name = "tableOwnertextBox2";
             this.tableOwnertextBox2.Size = new System.Drawing.Size(130, 20);
             this.tableOwnertextBox2.TabIndex = 17;
@@ -230,7 +208,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(39, 284);
+            this.label6.Location = new System.Drawing.Point(29, 224);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(121, 13);
             this.label6.TabIndex = 18;
@@ -243,9 +221,9 @@
             this.Nome,
             this.View,
             this.Comentários});
-            this.dataGrid.Location = new System.Drawing.Point(42, 312);
+            this.dataGrid.Location = new System.Drawing.Point(42, 258);
             this.dataGrid.Name = "dataGrid";
-            this.dataGrid.Size = new System.Drawing.Size(496, 220);
+            this.dataGrid.Size = new System.Drawing.Size(496, 274);
             this.dataGrid.TabIndex = 19;
             this.dataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -270,15 +248,15 @@
             this.removeGridButton.Name = "removeGridButton";
             this.removeGridButton.Size = new System.Drawing.Size(146, 23);
             this.removeGridButton.TabIndex = 20;
-            this.removeGridButton.Text = "Remover Coluna";
+            this.removeGridButton.Text = "Remover Linhas";
             this.removeGridButton.UseVisualStyleBackColor = true;
             this.removeGridButton.Click += new System.EventHandler(this.removeGridButton_Click);
             // 
             // comentButton
             // 
-            this.comentButton.Location = new System.Drawing.Point(489, 713);
+            this.comentButton.Location = new System.Drawing.Point(404, 713);
             this.comentButton.Name = "comentButton";
-            this.comentButton.Size = new System.Drawing.Size(75, 23);
+            this.comentButton.Size = new System.Drawing.Size(134, 23);
             this.comentButton.TabIndex = 21;
             this.comentButton.Text = "Gerar comentários";
             this.comentButton.UseVisualStyleBackColor = true;
@@ -290,14 +268,14 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 22;
-            this.button1.Text = "Limpar";
+            this.button1.Text = "Limpar Tabela";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkImmediate
             // 
             this.checkImmediate.AutoSize = true;
-            this.checkImmediate.Location = new System.Drawing.Point(333, 136);
+            this.checkImmediate.Location = new System.Drawing.Point(323, 76);
             this.checkImmediate.Name = "checkImmediate";
             this.checkImmediate.Size = new System.Drawing.Size(100, 17);
             this.checkImmediate.TabIndex = 23;
@@ -332,8 +310,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nametextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.alterMVcheckBox);
-            this.Controls.Add(this.createMVcheckBox);
             this.Name = "Form1";
             this.Text = "Gerador Script IDE";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -345,8 +321,6 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox createMVcheckBox;
-        private System.Windows.Forms.CheckBox alterMVcheckBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox nametextBox;
         private System.Windows.Forms.Label label2;
