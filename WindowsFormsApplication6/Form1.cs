@@ -80,47 +80,54 @@ namespace WindowsFormsApplication6
 
 
         public Form1()
-        {
+        {   
             InitializeComponent();
         }
 
         private string connectdataBase(string owner, string tableName)
         {
             //string oradb = "Data Source=(DESCRIPTION =" + "(ADDRESS = (PROTOCOL = TCP)(HOST =127.0.0.1)(PORT = 1521))" + "(CONNECT_DATA =" + "(SERVER = DEDICATED)" + "(SERVICE_NAME = XE)));" + "User Id=hr;Password=hradmin;";
-
+            
             string oradb = "Data Source=(DESCRIPTION =" + "(ADDRESS = (PROTOCOL = TCP)(HOST =s324-prodabel.pbh)(PORT = 1521))" + "(CONNECT_DATA =" + "(SERVER = DEDICATED)" + "(SERVICE_NAME = GEODSV1)));" + "User Id=tinorberto;Password=tiago123;";
-
             string names = "";
-            OracleConnection con = new OracleConnection(oradb);
-            con.Open();
-            OracleCommand oraCommand = new OracleCommand("select COLUMN_NAME from all_tab_columns where table_name =:tableName and owner =:owner", con);
-            oraCommand.BindByName = true;
-            oraCommand.Parameters.Add(new OracleParameter("owner", owner));
-            oraCommand.Parameters.Add(new OracleParameter("tableName", tableName));
-            OracleDataReader oraReader = null;
-            oraReader = oraCommand.ExecuteReader();
-
-            if (oraReader.HasRows)
+            try
             {
-                while (oraReader.Read())
+                OracleConnection con = new OracleConnection(oradb);
+                con.Open();
+                OracleCommand oraCommand = new OracleCommand("select COLUMN_NAME from all_tab_columns where table_name =:tableName and owner =:owner", con);
+                oraCommand.BindByName = true;
+                oraCommand.Parameters.Add(new OracleParameter("owner", owner));
+                oraCommand.Parameters.Add(new OracleParameter("tableName", tableName));
+                OracleDataReader oraReader = null;
+                oraReader = oraCommand.ExecuteReader();
+
+                if (oraReader.HasRows)
                 {
-                    DataGridViewRow row = (DataGridViewRow)dataGrid.Rows[0].Clone();
-                    row.Cells[0].Value = oraReader.GetString(0);
-                    row.Cells[1].Value = oraReader.GetString(0);
-                    dataGrid.Rows.Add(row);
+                    while (oraReader.Read())
+                    {
+                        DataGridViewRow row = (DataGridViewRow)dataGrid.Rows[0].Clone();
+                        row.Cells[0].Value = oraReader.GetString(0);
+                        row.Cells[1].Value = oraReader.GetString(0);
+                        dataGrid.Rows.Add(row);
 
-                    //
-                    names += oraReader.GetString(0) + " ,";
+                        //
+                        names += oraReader.GetString(0) + " ,";
 
+                    }
                 }
+                else
+                {
+                    names = "No Rows Found";
+                }
+                // Close and Dispose OracleConnection
+                con.Close();
+                con.Dispose();
             }
-            else
+            catch (Exception e)
             {
-                names = "No Rows Found";
+                Console.WriteLine("{0} Exception caught.", e);
+                MessageBox.Show(e.ToString(), "Error Title", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            // Close and Dispose OracleConnection
-            con.Close();
-            con.Dispose();
 
             return names;
 
@@ -294,9 +301,9 @@ namespace WindowsFormsApplication6
 
                 if (row.Cells[1].Value != null && row.Cells[2].Value != null )
                 {
-                string viewName = row.Cells[1].Value.ToString();
+                string viewName = row.Cells[1].Value.ToString().ToUpper();
                 string viewComent = row.Cells[2].Value.ToString();
-                string tableName = row.Cells[0].Value.ToString();
+                string tableName = row.Cells[0].Value.ToString().ToUpper();
                 //colunas que tem o nome alterado
                 colluns += tableName + " " + viewName + " , \n";
 
