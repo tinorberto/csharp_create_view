@@ -7,10 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication6", 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CreateMV|Any CPU = CreateMV|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A59EA2B-6E1B-4BC5-9889-7710F1957FEE}.CreateMV|Any CPU.ActiveCfg = CreateMV|Any CPU
+		{5A59EA2B-6E1B-4BC5-9889-7710F1957FEE}.CreateMV|Any CPU.Build.0 = CreateMV|Any CPU
 		{5A59EA2B-6E1B-4BC5-9889-7710F1957FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A59EA2B-6E1B-4BC5-9889-7710F1957FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A59EA2B-6E1B-4BC5-9889-7710F1957FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -6,3 +6,4 @@ D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Release\Windo
 D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.csproj.GenerateResource.Cache
 D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.exe
 D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.pdb
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6N.exe.config

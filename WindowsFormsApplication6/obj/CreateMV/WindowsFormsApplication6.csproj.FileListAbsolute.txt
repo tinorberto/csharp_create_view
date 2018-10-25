@@ -1,0 +1,10 @@
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\CreateMV\WindowsFormsApplication6N.exe.config
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\CreateMV\WindowsFormsApplication6N.exe
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\CreateMV\WindowsFormsApplication6N.pdb
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\bin\CreateMV\Oracle.ManagedDataAccess.dll
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6.Form1.resources
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6.Properties.Resources.resources
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6.csproj.GenerateResource.Cache
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6N.exe
+D:\repositorio_csharp\CreateManagerMV\WindowsFormsApplication6\obj\CreateMV\WindowsFormsApplication6N.pdb
