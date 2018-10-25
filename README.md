@@ -16,3 +16,4 @@ Projeto em c# para a criação de mview apartir de uma tabela no banco de dados 
  - Aumentar o tamanho dos campos
  - Salvar o arquivo em disco
  - Carrega os schemas e tabelas em um combox
+ - Botão de limpar os campos
